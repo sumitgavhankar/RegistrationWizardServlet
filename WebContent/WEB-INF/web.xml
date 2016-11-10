@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>registration</display-name>
+  <welcome-file-list>
+    <welcome-file>registration.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>RegistrationController</display-name>
+    <servlet-name>RegistrationController</servlet-name>
+    <servlet-class>com.capgemini.RegistrationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationController</servlet-name>
+    <url-pattern>/RegistrationController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegistrationController2</display-name>
+    <servlet-name>RegistrationController2</servlet-name>
+    <servlet-class>com.capgemini.RegistrationController2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationController2</servlet-name>
+    <url-pattern>/RegistrationController2</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>RegistrationController3</display-name>
+    <servlet-name>RegistrationController3</servlet-name>
+    <servlet-class>com.capgemini.RegistrationController3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationController3</servlet-name>
+    <url-pattern>/RegistrationController3</url-pattern>
+  </servlet-mapping>
+</web-app>
